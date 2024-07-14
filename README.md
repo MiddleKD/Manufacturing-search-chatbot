@@ -34,12 +34,12 @@
 </details>
 
 ## 📌 Index
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Approach](#approach)
-4. [Install](#install)
-5. [How to use](#how-to-use)
-6. [Contact](#contact)
+1. [Introduction](#-introduction)
+2. [Features](#-features)
+3. [Approach](#-approach)
+4. [Install](#-install)
+5. [How to use](#-how-to-use)
+6. [Contact](#-contact)
 
 ## 🚀 Introduction
 Manufacturing-search-chatbot 프로젝트는 제조업체 및 기술 지원팀을 위한 흥미로운 솔루션입니다. 이 시스템은 도면, 메타데이터, 그리고 AI 기술을 활용하여 **제조 부품에 대한 검색 혹은 질문에 신속하고 정확한 답변을 제공**합니다. RAG(Retrieval-Augmented Generation) 기술을 기반으로 하여 사용자 질의에 대해 맞춤형 응답을 생성하여 제조 프로세스의 효율성을 향상시킵니다.
