@@ -3,6 +3,8 @@
 도면과 메타데이터를 Multimodal embedding하여 문서로 변환하고, 매우 간편하게 검색할 수 있는 챗봇입니다.
 
 ## 🎬 Demo
+![project_header1](assets/demo1.png)
+![project_header2](assets/demo3.png)
 <details>
     <summary><strong>Interface</strong></summary>
     <ul>
