@@ -1,4 +1,5 @@
 # 🎨 Manufacturing-search-chatbot
+![git_header](assets/middlek_git_header.png)
 <!-- ![git_header](assets/favorfit_git_header.png) -->
 도면과 메타데이터를 Multimodal embedding하여 문서로 변환하고, 매우 간편하게 검색할 수 있는 챗봇입니다.
 
