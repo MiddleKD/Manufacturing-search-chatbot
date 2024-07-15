@@ -107,13 +107,41 @@ vim .env
 ```
 
 ## 🖥 How to use
-1. 시스템 실행
+### Make knowledge base
+1. `image/metadata_example.ods`를 참고하여 메타데이터를 엑셀로 저장
+2. `.env` 파일에 메타데이터와 도면 이미지 경로를 입력하고 생성된 데이터를 저장할 경로 설정
+    ```
+    BLUEPRINT_PATH=./image/bps
+    CAD_FEATURE_PATH=./image/cad_features.ods
+    FILE_DATA_DIR=./data
+    ```
+3. `make_knowledge_base.py` 실행
+    ```bash
+    python3 make_knowledge_base.py
+    ```
+4. FILE_DATA_DIR 경로에 json데이터가 생성
+
+### Update Vector DB
+1. `.env` 파일에 DB 경로와 collection 이름 설정
+    ```
+    DB_DIR=./chroma_db
+    COLLECTION_NAME=knowledge_base
+    ```
+2. `update_chroma_db.py`실행
+    ```bash
+    python3 update_chroma_db.py
+    ```
+3. DB_DIR 경로의 DB에 새로 생긴 지식기반이 업데이트 됨
+
+
+### Run GUI chat bot
+1. GUI app 실행
     ```bash
     python3 app.py
     ```
 2. 인터페이스에서 제품 부품에 대한 질문 입력
 3. 필요한 경우 관련 도면 이미지 업로드
-4. '제출' 버튼 클릭하여 응답 확인
+4. 'submit' 버튼 클릭하여 응답 확인
 
 ## 📞 Contact
 middlek - middlekcenter@gmail.com
