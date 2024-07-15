@@ -1,6 +1,5 @@
-from typing import Union
 import chromadb
-from api import query_to_claude_stream, text_embedding_with_voyage
+from api import text_embedding_with_voyage
 
 # LLM API query를 위한 시스템 프롬프트
 # 직접적인 유저와의 RAG 소통을 위함임

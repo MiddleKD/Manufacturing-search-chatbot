@@ -1,0 +1,7 @@
+pillow==10.2.0
+chromadb
+python-dotenv
+pandas==1.5.3
+gradio
+anthropic
+voyageai
